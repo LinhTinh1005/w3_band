@@ -1,8 +1,7 @@
 *{
   padding: 0;
   margin: 0;
-  box-sizing: border-box; /* Thuộc tính dùng để điều chỉnh kích thước ban đầu sao cho khi badding và margin không bị ảnh hưởng và nó tự động cộng vào.*/
-}
+  box-sizing: border-box; 
 html{
   font-family: Arial, Helvetica, sans-serif;
   scroll-behavior: smooth;
@@ -191,13 +190,13 @@ color: #000;
 .content-section .about-text{
   margin-top: 25px;
   font-size: 15px;
- text-align: justify;   /* căn đều */
- line-height: 1.4; /* khoảng cách giữa các dòng*/
+ text-align: justify;  
+ line-height: 1.4; 
 }
 .content-section .member-list{
   margin-top: 32px;
 
-  /* overflow: hidden; đây là 1 cách giúp làm float ôm lấy thuộc tính */
+ 
   
 }
 
@@ -317,7 +316,7 @@ margin-top: -3px;
   max-width: calc(100% - 32px);
   min-width: 200px;
   position: relative;
-  animation: modalFadeIn ease .6s; /*kiểu chuyển động*/
+  animation: modalFadeIn ease .6s;
 }
 
 .modal-header {
@@ -440,7 +439,7 @@ margin-top: -3px;
 }
 
 
-/*viết chuyển động cho modal hiệu ứng animation*/
+
 @keyframes modalFadeIn{
   from {
     opacity: 0;
